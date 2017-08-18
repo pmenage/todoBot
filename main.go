@@ -10,7 +10,6 @@ import (
 	"todoBot/messages"
 
 	"github.com/MartinSahlen/go-cloud-fn/shim"
-	"github.com/go-telegram-bot-api/telegram-bot-api"
 	"github.com/melvinmt/firebase"
 )
 
@@ -69,11 +68,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 			newItem := Item{}
 
-			if err = itemRef.Value(item); err != nil {
+			if err = itemRef.Value(newItem); err != nil {
 				panic(err)
 			}
 
-			bot.SendMessage(update, item.Name)
+			bot.SendMessage(update, newItem.Name)
 
 			continue
 		}
