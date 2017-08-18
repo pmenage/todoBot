@@ -1,0 +1,6 @@
+package: todoBot
+import:
+- package: github.com/go-telegram-bot-api/telegram-bot-api
+- package: github.com/ghodss/yaml
+- package: github.com/MartinSahlen/go-cloud-fn
+- package: github.com/melvinmt/firebase

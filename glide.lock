@@ -1,0 +1,33 @@
+hash: 5e15a66e4076c0ca0e4310c857b412e6016b2e6b471759e0af003a4983cc465b
+updated: 2017-08-17T22:46:12.367921432+02:00
+imports:
+- name: github.com/ghodss/yaml
+  version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
+- name: github.com/go-telegram-bot-api/telegram-bot-api
+  version: 9dda67c714e5e2cba837b28a0172cca2ed54f078
+- name: github.com/MartinSahlen/go-cloud-fn
+  version: 3144677007db2fd3a906c25c596530d3ab49a99c
+  subpackages:
+  - shim
+- name: github.com/melvinmt/firebase
+  version: fbeb099b58c63c37c63adac46d79f75eae7b38ea
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/technoweenie/multipartstreamer
+  version: a90a01d73ae432e2611d178c18367fbaa13e0154
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: google.golang.org/api
+  version: cbeb0ff89adddeef6a3287fa481dcca2b596ed36
+  subpackages:
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+  - pubsub/v1beta2
+  - storage/v1beta2
+- name: gopkg.in/yaml.v2
+  version: 25c4ec802a7d637f88d584ab26798e94ad14c13b
+testImports: []
